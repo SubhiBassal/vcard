@@ -50,7 +50,20 @@
     .social-links {
         margin-top: 15px;
     }
+
     .social-links a {
+    display: flex;
+    align-items: center;     /* توسيط عمودي */
+    justify-content: center; /* توسيط أفقي */
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-size: 1.2em;
+    color: #fff;
+    transition: transform 0.2s;
+}
+
+/*     .social-links a {
         display: inline-block;
         margin: 5px;
         text-decoration: none;
@@ -60,7 +73,7 @@
         border-radius: 50%;
         font-size: 1.2em;
         transition: transform 0.2s;
-    }
+    } */
     .social-links a:hover {
         transform: scale(1.2);
     }
@@ -79,7 +92,7 @@
 <div class="card">
     <img src="subhi.png" alt="صبحي بصال" class="profile">
     <h1>صبحي بصال</h1>
-    <p>Full Stack Developer</p>
+    <p>MERN Stack Developer (in progress)</p>
 <!--     <p>رقم الهاتف: +963-XXX-XXXXXX</p> -->
     
     <div class="social-links">
@@ -98,6 +111,7 @@
 </div>
 </body>
 </html>
+
 
 
 
